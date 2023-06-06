@@ -1,0 +1,203 @@
+form { padding: 0; margin: 0; }
+img { border-width: 0; }
+html, body
+{
+margin: 0px;
+padding: 0px;
+font-family: Arial, Verdana, sans-serif;
+font-size: 14px;
+color: #455560;
+}
+
+textarea
+{
+font-family: Arial, Verdana, sans-serif;
+font-size: 12px;
+}
+
+a
+{
+color: #00728F;
+font-weight: normal;
+text-decoration: underline;
+}
+a:hover { text-decoration: none; }
+h1,
+h1 a
+{
+font-size: 24px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+margin: 10px 0px;
+text-align: left;
+color: #008E3C;
+}
+h2,h3,h4,h5,h6
+
+{
+font-size: 20px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+margin: 10px 0px;
+text-align: left;
+color: #008E3C;
+}
+.floatLeft
+{
+float: left;
+padding: 0px 10px 10px 0px;
+}
+.floatRight
+{
+float: right;
+padding: 0px 0px 10px 10px;
+}
+
+#page
+{
+margin: 0 auto;
+text-align: left;
+width: 1024px;
+background: url(../images/main.png) no-repeat 0px 250px;
+overflow: hidden;
+min-height: 591px;
+}
+#topBG
+{
+background: url(../images/mainTop.png) no-repeat top left;
+overflow: hidden;
+min-height: 591px;
+position: relative;
+}
+#topNav
+
+{
+margin: 0px;
+padding: 255px 0px 0px 130px;
+}
+#topNav ul
+{
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+#topNav li
+{
+margin: 0px;
+padding: 0px;
+line-height: 27px;
+}
+#topNav a
+{
+font-size: 20px;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #00728F;
+font-weight: normal;
+padding: 0px 0px;
+text-decoration: none;
+}
+#topNav li:hover a, #topNav li.selected a
+{
+color: #F9A350;
+text-decoration: none;
+}
+
+#pageTitle
+{
+position: absolute;
+top: 360px;
+left: 293px;
+}
+#pageTitle h1
+{
+font-size: 27px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+margin: 10px 0px;
+text-align: left;
+color: #008E3C;
+}
+#mainContent
+{
+padding: 0px 245px 0px 105px
+}
+#leftBox
+{
+background: url(../images/leftBoxMid.jpg) repeat-y top left;
+margin: 15px 0px;
+}
+#leftBoxContent
+{
+padding: 10px 12px;
+min-height: 200px;
+font-size: 10px;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #000;
+text-align: center;
+}
+#leftBoxContent hr
+{
+background: #000;
+border: none;
+height: 1px;
+}
+
+#mainText
+{
+font-weight: normal;
+padding: 10px 0px 10px 20px;
+text-align: left;
+line-height: 17px;
+}
+
+.customer
+{
+padding: 0px 0px 0px 30px;
+}
+#footer
+{
+width: 1024px;
+margin: 0px auto;
+}
+#copyright
+{
+float: left;
+font-weight: normal;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #455560;
+font-size: 12px;
+padding: 5px 0px 5px 72px;
+text-align: left;
+}
+#bottomNav
+{
+float: right;
+font-weight: normal;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #455560;
+font-size: 12px;
+padding: 5px 65px 5px 0px;
+text-align: right;
+}
+#bottomNav a
+{
+font-weight: normal;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #455560;
+font-size: 12px;
+padding: 0px 5px;
+text-decoration: none; }
+#bottomNav a:hover {
+text-decoration: underline; }
+
+/* Logoworks link back */
+#linkback, #linkback a {
+clear: both;
+font-family: arial, verdana;
+font-size: 9px;
+color: #949A9E;
+font-weight: normal;
+padding: 0px 0px;
+margin: 10px 0px;
+text-decoration: none;
+text-align: center; }
